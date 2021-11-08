@@ -1,0 +1,46 @@
+.main {
+  width: 100%;
+  height:100vh;
+ 
+  margin: auto;
+  position: relative;
+}
+
+
+.button-click {
+  position: absolute;
+  
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+.video-div video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ 
+}
+
+
+
+.button-click button {
+  width: 88px;
+  height: 86px;
+  margin-left: 10px;
+  border-radius: 47px;
+  outline: none;
+  border: 3px solid black;
+  margin-left: 30px;
+   transition: all 0.5s ease;
+  font-size: 19px;
+  background: #ff5b5b;
+  color: white;
+}
+
+.button-click button:hover {
+
+  box-shadow: 0 2px 5px;
+}
